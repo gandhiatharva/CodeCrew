@@ -1,4 +1,4 @@
-# CodeSync
+# CodeCrew
 
 **CodeCrew** is a next-generation, real-time collaborative coding environment that empowers developers to write, share, and execute code together seamlessly. Built with cutting-edge web technologies, it transforms the way teams collaborate by providing an interactive, cloud-based IDE that feels fast, intuitive, and powerful.
 

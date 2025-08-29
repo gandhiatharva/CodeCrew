@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import Editor from '@monaco-editor/react';
 
 // set up socket connection
-const socket = io("https://codesync-0r3w.onrender.com");
+const socket = io("https://codecrew-cv3u.onrender.com");
 
 const App = () => {
   // state if a user has joined in a room or not (false initially)

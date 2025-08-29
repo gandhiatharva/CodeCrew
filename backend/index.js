@@ -9,7 +9,7 @@ const app = express();
 
 const server = http.createServer(app);
 
-const url = `https://codesync-0r3w.onrender.com`;
+const url = `https://codecrew-cv3u.onrender.com`;
 const interval = 30000;
 
 function reloadWebsite() {

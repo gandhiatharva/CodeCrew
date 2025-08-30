@@ -5,7 +5,10 @@ import { version } from 'os';
 import { Server } from "socket.io";
 import axios from 'axios';
 
-import path from 'path'
+
+// import path from 'path'
+// import { fileURLToPath } from "url";
+// import { dirname, join } from "path";
 
 const app = express();
 
@@ -114,11 +117,21 @@ io.on("connection", (socket)=>{
 });
 
 
-const __dirname = path.resolve();
-app.use(express.static(path.join(__dirname,"/frontend/build")));
-app.get("*",(req,res) =>{
-    res.sendFile(path.join(__dirname,"frontend","build","index.html"));
-});
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = dirname(__filename);
+
+// app.use(express.static(join(__dirname, "..", "frontend", "dist")));
+
+// app.get("/*", (req, res) => {
+//   res.sendFile(join(__dirname, "..", "frontend", "dist", "index.html"));
+// });
+
+
+
+
+
+
+
 server.listen(PORT, ()=>{
     console.log("Server is running on port:", PORT);
 });

@@ -14,7 +14,7 @@ const app = express();
 
 const server = http.createServer(app);
 
-const url = https://codecrew-3.onrender.com;
+const url = `https://codecrew-3.onrender.com`;
 const interval = 30000;
 
 function reloadWebsite() {
